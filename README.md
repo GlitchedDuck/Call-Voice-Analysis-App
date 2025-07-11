@@ -6,15 +6,21 @@ This tool lets small businesses transcribe and analyse voicemails or call record
 
 ## 💻 How to Run the Tool
 
-1. Install Python 3.8+
+### 1. Install Python 3.8+
 
-2. Install dependencies:
+### 2. Install dependencies:
 
-   - `ffmpeg`
-   - `whisper.cpp` compiled as `main`
-   - Place `ggml-base.en.bin` in a `models/` folder
+- `ffmpeg`
+- `whisper.cpp` compiled as `main`
+- Place `ggml-base.en.bin` in a `models/` folder
 
-3. Run in terminal:
+### 3. Run in terminal:
 
-```bash
+```
 python voice_analysis_app.py
+```
+
+### 4. Output:
+
+- `transcript.txt` – the full transcription of the audio file
+- `analysis.txt` – a summary of the customer's intent, urgency, and next steps
