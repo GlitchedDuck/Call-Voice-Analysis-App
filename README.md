@@ -24,3 +24,12 @@ python voice_analysis_app.py
 
 - `transcript.txt` – the full transcription of the audio file
 - `analysis.txt` – a summary of the customer's intent, urgency, and next steps
+
+---
+
+## ❗ Licensing
+
+This project is **proprietary software**.  
+You are not permitted to use, copy, distribute, or modify any part of this code without explicit written permission from the author.
+
+See the [LICENSE](./LICENSE) file for full terms.
